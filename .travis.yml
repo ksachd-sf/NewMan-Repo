@@ -10,5 +10,5 @@ before_script:
   - nmp --version
   - node_modules/.bin/newman --version
 
-scripts:
+script:
   - node_modules/.bin/newman run tests/API.json
