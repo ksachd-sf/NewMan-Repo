@@ -7,7 +7,7 @@ install:
 
 before_script:
   - node --version
-  - nmp --version
+  - npm --version
   - node_modules/.bin/newman --version
 
 script:
