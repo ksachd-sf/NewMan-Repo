@@ -11,4 +11,4 @@ before_script:
   - node_modules/.bin/newman --version
 
 scripts:
-	- node_modules/.bin/newman run tests/API.json
+  - node_modules/.bin/newman run tests/API.json
